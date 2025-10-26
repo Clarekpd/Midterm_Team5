@@ -1,0 +1,113 @@
+{
+    "pets": [
+        {
+            "name": "Cat",
+            "type": "Cat",
+            "img": "pets\\cat.svg",
+            "interactionModule": [
+                {
+                    "action": "Feed",
+                    "status": "energy",
+                    "increment": 8
+                },
+                {
+                    "action": "Pet",
+                    "status": "happiness",
+                    "increment": 8
+                },
+                {
+                    "action": "Play With",
+                    "status": "behavior",
+                    "increment": 8
+                },
+                {
+                    "action": "Clean Litter Box",
+                    "status": "hygine",
+                    "increment": 8
+                }
+            ]
+        },
+        {
+            "name": "Dog",
+            "type": "Dog",
+            "img": "pets\\dog.svg",
+            "interactionModule": [
+                {
+                    "action": "Feed",
+                    "status": "energy",
+                    "increment": 10
+                },
+                {
+                    "action": "Pet",
+                    "status": "happiness",
+                    "increment": 10
+                },
+                {
+                    "action": "Play",
+                    "status": "behavior",
+                    "increment": 10
+                },
+                {
+                    "action": "Take Outside",
+                    "status": "hygine",
+                    "increment": 10
+                }
+            ]
+        },
+        {
+            "name": "Turtle",
+            "type": "Turle",
+            "img": "pets\\turtle.svg",
+            "interactionModule": [
+                {
+                    "action": "Feed",
+                    "status": "energy",
+                    "increment": 12
+                },
+                {
+                    "action": "Pet",
+                    "status": "happiness",
+                    "increment": 12
+                },
+                {
+                    "action": "Play",
+                    "status": "behavior",
+                    "increment": 12
+                },
+                {
+                    "action": "Clean Terrarium",
+                    "status": "hygine",
+                    "increment": 12
+                }
+            ]
+        },
+        {
+            "name": "Squid",
+            "type": "Squid",
+            "img": "pets\\squid.svg",
+
+            "interactionModule": [
+                {
+                    "action": "Feed",
+                    "status": "energy",
+                    "increment": 12
+                },
+                {
+                    "action": "Pet",
+                    "status": "happiness",
+                    "increment": 12
+                },
+                {
+                    "action": "Play",
+                    "status": "behavior",
+                    "increment": 12
+                },
+                {
+                    "action": "Clean Terrarium",
+                    "status": "hygine",
+                    "increment": 12
+                }
+            ]
+        }
+    ]
+}
